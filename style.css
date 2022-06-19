@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+}
+
+.content {
+  width: 100%;
+}
+.content .top {
+  background-color: #70eeac;
+  color: #0035ad;
+  padding: 1rem;
+  width: 100%;
+  text-shadow: 0px 0px 2.5px #0035ad;
+}
+.content .enter {
+  margin-top: 5%;
+  margin-bottom: 2.5%;
+  margin-left: 10%;
+  width: 80%;
+}
+.content .mainBox {
+  height: auto;
+  width: 70%;
+  margin: 2px solid black;
+  margin-left: 15%;
+  margin-top: 0;
+}
+.content .mainBox li {
+  margin: 2%;
+}
+.content .b {
+  margin: 7% 0;
+  text-align: center;
+}
+.content .b button {
+  background: #0035ad;
+  transition: all 0.3s;
+  color: #fff;
+  border: 1px solid #0035ad;
+}
+.content .b button:hover {
+  transform: scale(1.1);
+}
+
+.taskData {
+  box-shadow: 0 0 5px #70eeac;
+  border-radius: 5px;
+  padding: 1% 0;
+  display: flex;
+  justify-content: space-between;
+}
+.taskData .icons {
+  width: 10%;
+  margin: 0 2%;
+  color: #0035ad;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.taskData i {
+  padding: 0 5%;
+  transition: all 0.2s;
+}
+.taskData i:hover {
+  transform: scale(1.2);
+}
+.taskData .values {
+  font-family: Georgia;
+  width: 80%;
+  padding: 0 2%;
+  font-size: large;
+  word-wrap: break-word;
+}
+
+/*# sourceMappingURL=style.css.map */
